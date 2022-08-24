@@ -51,13 +51,27 @@ body {
 }
 
 .buttonLevel{
-    width: 100px;
+    position: absolute;
+    width: 150px;
+    height: 30px;
     color: red;
     font-weight: 700;
     background: transparent;
     margin-top: 10px;
     border-color: red;
     cursor: pointer;
+}
+
+.medium, .medium1, .medium2, .medium3{
+    margin-top: 50px;
+}
+
+.hard, .hard1, .hard2, .hard3{
+    margin-top: 90px;
+}
+
+.disp{
+    display: none;
 }
 
 .back {
@@ -69,7 +83,7 @@ body {
     height: 100vh;
 }
 
-.cold{
+.cold, .cold1, .cold2, .cold3, .cold4, .cold5, .cold6, .cold7, .cold8, .cold9, .cold10, .cold11{
     margin-top: 330px;
     margin-left: 300px;
 }
