@@ -5,7 +5,7 @@
 body {
     width: 100%;
     height: 100vh;
-    background: url(images/photo.jpg) center no-repeat;
+    background: url(assets/home.png) center no-repeat;
     background-size: 100% 100%;
 }
 
@@ -62,11 +62,11 @@ body {
     cursor: pointer;
 }
 
-.medium, .medium1, .medium2, .medium3{
+.medium{
     margin-top: 50px;
 }
 
-.hard, .hard1, .hard2, .hard3{
+.hard{
     margin-top: 90px;
 }
 
@@ -83,7 +83,33 @@ body {
     height: 100vh;
 }
 
-.cold, .cold1, .cold2, .cold3, .cold4, .cold5, .cold6, .cold7, .cold8, .cold9, .cold10, .cold11{
+.cold{
     margin-top: 330px;
     margin-left: 300px;
+}
+
+.bgImages {
+    width: 100px;
+    height: 160px;
+}
+
+.bg{
+    padding: 0;
+    border: none;
+    height: 150px;
+    margin-top: 330px;
+    margin-left: 300px;
+    cursor: pointer;
+}
+
+.card{
+    width: 100px;
+    height: 160px;
+    margin-top: 30px;
+    margin-left: 300px;
+    background-size: 100% 100%;
+}
+
+.disp1{
+    opacity: 0;
 }
